@@ -38,4 +38,5 @@
     elsif line.length > 0 
       array.each do |person|
       new_line << "#{count}. #{person}"
+      count += 1
   end
