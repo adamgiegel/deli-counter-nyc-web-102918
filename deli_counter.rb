@@ -39,4 +39,6 @@
       array.each do |person|
       new_line << "#{count}. #{person}"
       count += 1
+    end
+  end
   end
