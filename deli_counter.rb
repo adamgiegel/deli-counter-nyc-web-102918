@@ -37,5 +37,5 @@
       return "There is no one in the line."
     elsif line.length > 0 
       array.each do |person|
-      
+      new_line << "#{count}. #{person}"
   end
