@@ -33,4 +33,5 @@
   def line(katz_deli)
     if line.length == 0 
       return "There is no one in the line."
-    elsif line.length 
+    elsif line.length > 0 
+      return "There are #{line.length} people in line."
