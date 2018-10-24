@@ -32,9 +32,10 @@
   
   def line(array)
     new_line = []
+    count = 1
     if line.length == 0 
       return "There is no one in the line."
     elsif line.length > 0 
       array.each do |person|
-           
+      
   end
