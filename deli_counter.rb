@@ -30,10 +30,11 @@
   
   katz_deli = []
   
-  def line(katz_deli)
+  def line(array)
+    new_line 
     if line.length == 0 
       return "There is no one in the line."
     elsif line.length > 0 
-      return "There are #{line.length} people in line."
-    end
+      array.each do |person|
+        
   end
